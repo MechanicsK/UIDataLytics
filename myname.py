@@ -1,3 +1,7 @@
-hey there...
+import Tkinter as tk
 
-this is hemant
+#Draw a window
+
+#Make labels on Window
+
+#Make a starting dotted capture
