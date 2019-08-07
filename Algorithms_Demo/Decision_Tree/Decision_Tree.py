@@ -19,7 +19,7 @@ def importdata():
     sep= ',', header = None) 
       
     # Printing the dataswet shape 
-    print ("Dataset Lenght: ", len(balance_data)) 
+    print ("Dataset Length: ", len(balance_data)) 
     print ("Dataset Shape: ", balance_data.shape) 
       
     # Printing the dataset obseravtions 
