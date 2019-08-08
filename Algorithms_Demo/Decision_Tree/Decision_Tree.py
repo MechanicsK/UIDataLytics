@@ -4,10 +4,29 @@
   
 # Importing the required packages 
 import numpy as np 
+
+# Numpy is the fundamnetal scientific computing package. 
+#Provides powerful N-dimensional array object.
+# Tools for integrating C/C++ and Fortran Code
+# Useful Linear Algebra, Fourier Transform and Random Numbers
 import pandas as pd 
+# Easy to use, data analysis tool, can handle and support multiple data formats. It's at high level 
+# than Numpy.
 from sklearn.metrics import confusion_matrix 
+
+# It is used to compute the accuracy of classification. It returns a matrix of numbers.
+# Syntax is:
+# sklearn.metrics.confusion_matrix(y_true, y_pred, labels=None, sample_weight=None)
+
 from sklearn.model_selection import train_test_split
+
+# It is used to split dataset into trainig and testing data.
 from sklearn.tree import DecisionTreeClassifier 
+# Decision Tree Classifier
+# DecisionTreeClassifier(criterion=’gini or entropy’, splitter=’best’, max_depth=None, min_samples_split=2, min_samples_leaf=1, 
+# min_weight_fraction_leaf=0.0, max_features=None,
+# random_state=None, max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, class_weight=None, presort=False)
+
 from sklearn.metrics import accuracy_score 
 from sklearn.metrics import classification_report 
   
